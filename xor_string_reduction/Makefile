@@ -1,13 +1,12 @@
-CC=g++
+CC=gcc
 CFLAGS=-Wall -Wextra
 SRC=main.c
-OBJS:=$(SRC:.c=)
-BINS=$(SRC:.c=)
+BINS=main
 
-all: $(OBJS)
+all: main
 
-$(OBJS):
-	$(CC) $(CFLAGS) $@.c -o $@
+main: main.c
+	$(CC) $(CFLAGS) $< -o $@
 
 clean:
 	rm -f $(BINS)

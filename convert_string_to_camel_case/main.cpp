@@ -38,6 +38,7 @@ int main(void) {
     };
 
     test_func(to_camel_case, data);
+
     return 0;
 }
 
