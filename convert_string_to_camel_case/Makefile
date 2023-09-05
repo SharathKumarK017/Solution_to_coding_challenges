@@ -1,10 +1,12 @@
 CXX=g++
 CXXFLAGS=-Wall -Wextra
 SRC=main.cpp
-BIN=strtocamel.out
+BINS=$(SRC:.cpp=)
 
-all:
-	$(CXX) main.cpp $(CXXFLAGS) -o strtocamel.out
+all: $(BINS)
+
+$(BINS):
+	$(CXX) $(CXXFLAGS) $(BINS).cpp -o $(BINS)
 
 clean:
-	rm -f $(BIN)
+	rm -f $(BINS)
