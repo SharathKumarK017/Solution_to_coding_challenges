@@ -7,5 +7,4 @@ programming.
 
 - [1. Convert string to camel case](./convert_string_to_camel_case/)
 - [2. XOR string reduction](./xor_string_reduction/)
-  (Could not acheive 40 chars limit)
 - [3. Find the missing letter](./find_missing_letter/)
