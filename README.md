@@ -8,3 +8,4 @@ programming.
 - [1. Convert string to camel case](./convert_string_to_camel_case/)
 - [2. XOR string reduction](./xor_string_reduction/)
 - [3. Find the missing letter](./find_missing_letter/)
+- [4. Replace With Alphabet Position](./replace_with_alphabet_position/)
